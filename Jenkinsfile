@@ -12,7 +12,7 @@ pipeline {
   }
 
   environment {
-    IMAGE_NAME       = 'soulaymahableni/contact-api'   // <-- ton identifiant Docker Hub s'il est différent
+    IMAGE_NAME       = 'hablani/contact-api'   // <-- ton identifiant Docker Hub s'il est différent
     npm_config_cache = '.npm-cache'           // cache npm dans le workspace (le conteneur ne tourne pas en root)
   }
 
