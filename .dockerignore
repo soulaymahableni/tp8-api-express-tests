@@ -1,0 +1,13 @@
+node_modules
+.npm-cache
+coverage
+reports
+captures
+tests
+.git
+.gitignore
+.env
+*.log
+Jenkinsfile*
+README.md
+compose.yaml
